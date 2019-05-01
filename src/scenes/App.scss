@@ -1,0 +1,25 @@
+@import '../stylesheets/colors-fonts';
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-light-gray;
+  height: 100vh;
+
+  .mobile-first-wrapper {
+    display: flex;
+    max-width: 375px;
+    max-height: 617px;
+    background: $color-white;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 1px 8px 0 $color-box-shadow-first, 0 1px 20px 0 $color-box-shadow-second;
+
+    .content-container {
+      padding: 30px;
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../../../stylesheets/colors-fonts';
+
+.review-intro-wrapper {
+  height: 100%;
+
+  .content {
+    height: 100%;
+
+    .review-intro-container {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      text-align: start;
+      overflow-y: auto;
+    
+      .main-area {
+        .review-intro-item-list {
+          list-style: none;
+          padding: 20px 0;
+    
+          .review-intro-item {
+            display: flex;
+            margin-bottom: 8px;
+    
+            label {
+              margin-right: 16px;
+            }
+            
+            img {
+              flex-grow: 1;
+              height: 240px;
+            }
+          }
+        }
+      }
+    
+      .review-footer {
+        font-size: 23px;
+        color: $light-gray-color;
+        margin-bottom: 30px;
+      }
+    
+      .next-button {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../../../../../stylesheets/colors-fonts';
+
+.analysis-result-container{
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+
+    .content-image {
+      width: 100%;
+      margin-bottom: 26px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content-desc {
+      margin-bottom: 26px;
+      color: $medium-gray-color;
+      text-align: start;
+    }
+
+    .content-item-desc-list {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 26px;
+    }
+  }
+}
